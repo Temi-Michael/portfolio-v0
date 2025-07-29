@@ -1,0 +1,71 @@
+.contact {
+  width: 100%;
+  padding: 3rem 0;
+}
+
+@media (min-width: 768px) {
+  .contact {
+    padding: 6rem 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .contact {
+    padding: 8rem 0;
+  }
+}
+
+.contact-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-card {
+  width: 100%;
+  max-width: 28rem;
+}
+
+.card-header {
+  margin-bottom: 1.5rem;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+}
+
+.card-description {
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+}
+
+.contact-form {
+  display: grid;
+  gap: 1rem;
+}
+
+.form-group {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.form-label {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--text-primary);
+}
+
+.error-message {
+  font-size: 0.875rem;
+  color: var(--error);
+  margin: 0;
+}
+
+.submit-button {
+  width: 100%;
+}

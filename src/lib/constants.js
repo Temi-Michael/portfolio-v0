@@ -1,0 +1,97 @@
+export const personalInfo = {
+  name: "Temi Michael",
+  title: "Full-Stack Developer",
+  tagline: "Building innovative web solutions with a focus on user experience and performance.",
+  profileImage: "/placeholder.svg?height=600&width=600",
+  resume: {
+    filename: "Temi_Michael_Resume.pdf",
+    downloadText: "Download Resume",
+    viewText: "View Resume",
+  },
+  projects: [
+    {
+      id: 1,
+      title: "E-Commerce Platform",
+      description:
+        "A full-stack e-commerce solution built with React, Node.js, and MongoDB. Features include user authentication, payment processing, inventory management, and admin dashboard.",
+      image: "/placeholder.svg?height=300&width=500",
+      technologies: ["React", "Node.js", "MongoDB", "Express", "Stripe", "JWT"],
+      liveUrl: "https://demo-ecommerce.com",
+      githubUrl: "https://github.com/temimichael/ecommerce-platform",
+      featured: true,
+      category: "Full-Stack",
+    },
+    {
+      id: 2,
+      title: "Task Management App",
+      description:
+        "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features. Built with React and Firebase.",
+      image: "/placeholder.svg?height=300&width=500",
+      technologies: ["React", "Firebase", "Material-UI", "React DnD", "PWA"],
+      liveUrl: "https://taskmaster-app.com",
+      githubUrl: "https://github.com/temimichael/task-manager",
+      featured: true,
+      category: "Frontend",
+    },
+    {
+      id: 3,
+      title: "Weather Dashboard",
+      description:
+        "A responsive weather application that provides current weather conditions, forecasts, and interactive maps. Integrates with multiple weather APIs for accurate data.",
+      image: "/placeholder.svg?height=300&width=500",
+      technologies: ["JavaScript", "Chart.js", "OpenWeather API", "Mapbox", "CSS3"],
+      liveUrl: "https://weather-dashboard-demo.com",
+      githubUrl: "https://github.com/temimichael/weather-dashboard",
+      featured: false,
+      category: "Frontend",
+    },
+    {
+      id: 4,
+      title: "Blog CMS",
+      description:
+        "A content management system for bloggers with rich text editing, image uploads, SEO optimization, and analytics. Built with Next.js and Prisma.",
+      image: "/placeholder.svg?height=300&width=500",
+      technologies: ["Next.js", "Prisma", "PostgreSQL", "TinyMCE", "Vercel"],
+      liveUrl: "https://blog-cms-demo.com",
+      githubUrl: "https://github.com/temimichael/blog-cms",
+      featured: false,
+      category: "Full-Stack",
+    },
+    {
+      id: 5,
+      title: "API Gateway Service",
+      description:
+        "A microservices API gateway built with Node.js and Express. Features rate limiting, authentication, request routing, and comprehensive logging.",
+      image: "/placeholder.svg?height=300&width=500",
+      technologies: ["Node.js", "Express", "Redis", "Docker", "JWT", "Winston"],
+      liveUrl: null,
+      githubUrl: "https://github.com/temimichael/api-gateway",
+      featured: false,
+      category: "Backend",
+    },
+    {
+      id: 6,
+      title: "Portfolio Website",
+      description:
+        "A responsive personal portfolio website built with React.js. Features dark/light mode, contact form, resume download, and smooth animations.",
+      image: "/placeholder.svg?height=300&width=500",
+      technologies: ["React", "CSS3", "JavaScript", "Responsive Design"],
+      liveUrl: "https://temimichael.dev",
+      githubUrl: "https://github.com/temimichael/portfolio",
+      featured: true,
+      category: "Frontend",
+    },
+  ],
+  aboutText: [
+    "Hello! I'm Temi Michael, a passionate full-stack developer with a knack for creating robust and scalable web applications. My journey in tech began with a fascination for how software can solve real-world problems and enhance daily lives.",
+    "I specialize in modern web technologies, including React.js, Next.js, Node.js, and various database systems. I thrive on learning new things and constantly pushing the boundaries of what's possible on the web.",
+    "Beyond coding, I enjoy exploring new technologies, contributing to open-source projects, and sharing my knowledge with others. I believe in clean code, efficient solutions, and a collaborative approach to development.",
+  ],
+  socialLinks: [
+    { name: "GitHub", url: "https://github.com/temimichael" },
+    { name: "Linkedin", url: "https://linkedin.com/in/temimichael" },
+    { name: "Twitter", url: "https://twitter.com/temimichael" },
+    { name: "Mail", url: "mailto:temi.michael.codes@gmail.com" },
+  ],
+  contactEmail: "temi.michael.codes@gmail.com",
+}

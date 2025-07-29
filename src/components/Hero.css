@@ -1,0 +1,163 @@
+.hero {
+  width: 100%;
+  padding: 3rem 0 6rem;
+}
+
+@media (min-width: 768px) {
+  .hero {
+    padding: 6rem 0 12rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero {
+    padding: 8rem 0 16rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .hero {
+    padding: 12rem 0 24rem;
+  }
+}
+
+.hero-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.hero-content {
+  display: grid;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+@media (min-width: 1024px) {
+  .hero-content {
+    grid-template-columns: 1fr 400px;
+    gap: 3rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .hero-content {
+    grid-template-columns: 1fr 600px;
+  }
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.hero-title {
+  font-size: 1.875rem;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.025em;
+  color: var(--text-primary);
+}
+
+@media (min-width: 640px) {
+  .hero-title {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .hero-title {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+}
+
+.hero-subtitle {
+  max-width: 700px;
+  color: var(--text-secondary);
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+@media (min-width: 768px) {
+  .hero-subtitle {
+    font-size: 1.25rem;
+  }
+}
+
+.hero-tagline {
+  max-width: 700px;
+  color: var(--text-secondary);
+  font-size: 1rem;
+}
+
+@media (min-width: 768px) {
+  .hero-tagline {
+    font-size: 1.25rem;
+  }
+}
+
+.hero-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+@media (min-width: 400px) {
+  .hero-actions {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 640px) {
+  .hero-actions {
+    gap: 0.75rem;
+  }
+
+  .hero-actions button {
+    width: 100%;
+  }
+}
+
+.resume-download-hero {
+  font-weight: 500;
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.resume-download-hero:hover {
+  background-color: var(--accent);
+  color: white;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.2);
+}
+
+.hero-image {
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 1024px) {
+  .hero-image {
+    order: 2;
+  }
+}
+
+.profile-image {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 0.75rem;
+  box-shadow: 0 10px 25px var(--shadow);
+}
+
+@media (min-width: 640px) {
+  .profile-image {
+    max-width: 600px;
+  }
+}
